@@ -1,0 +1,109 @@
+
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": 101,
+          "name": "Security Score",
+          "content": "Overall security score: 92%"
+        },
+        {
+          "id": 102,
+          "name": "Compliance Status",
+          "content": "Compliant with 4/5 standards"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Threat Detection",
+      "widgets": [
+        {
+          "id": 201,
+          "name": "Active Threats",
+          "content": "12 active threats detected"
+        },
+        {
+          "id": 202,
+          "name": "Threat Trend",
+          "content": "Threats increased by 5% this week"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Resource Monitoring",
+      "widgets": [
+        {
+          "id": 301,
+          "name": "CPU Usage",
+          "content": "Average CPU usage: 45%"
+        },
+        {
+          "id": 302,
+          "name": "Memory Usage",
+          "content": "Average memory usage: 62%"
+        }
+      ]
+    }
+  ],
+  "allWidgets": [
+    {
+      "id": 101,
+      "name": "Security Score",
+      "content": "Overall security score: 92%",
+      "categoryId": 1
+    },
+    {
+      "id": 102,
+      "name": "Compliance Status",
+      "content": "Compliant with 4/5 standards",
+      "categoryId": 1
+    },
+    {
+      "id": 201,
+      "name": "Active Threats",
+      "content": "12 active threats detected",
+      "categoryId": 2
+    },
+    {
+      "id": 202,
+      "name": "Threat Trend",
+      "content": "Threats increased by 5% this week",
+      "categoryId": 2
+    },
+    {
+      "id": 301,
+      "name": "CPU Usage",
+      "content": "Average CPU usage: 45%",
+      "categoryId": 3
+    },
+    {
+      "id": 302,
+      "name": "Memory Usage",
+      "content": "Average memory usage: 62%",
+      "categoryId": 3
+    },
+    {
+      "id": 401,
+      "name": "Network Traffic",
+      "content": "Network traffic: 2.4 GB/s",
+      "categoryId": 0
+    },
+    {
+      "id": 402,
+      "name": "User Activity",
+      "content": "124 active users",
+      "categoryId": 0
+    },
+    {
+      "id": 403,
+      "name": "Error Rate",
+      "content": "Error rate: 0.8%",
+      "categoryId": 0
+    }
+  ]
+}
